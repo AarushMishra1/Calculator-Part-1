@@ -1,3 +1,3 @@
-function setscreenvalue() {
-    document.getElementById("result").value = "";
+const setScreenValue = async (value) => {
+    document.getElementById("result").value = document.getElementById("result").value + value;
 }
