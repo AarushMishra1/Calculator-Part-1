@@ -6,3 +6,4 @@ const setScreenValue=async(value) => {
 const clearScreen=async()=>{
     document.getElementById("result").value = "";
 } 
+
